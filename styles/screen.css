@@ -47,6 +47,7 @@ main {
     list-style-type: none;
     margin: 10px 0;
     padding: 0 0 0 35px;
+    margin-left: 80px;
 }
 
 .details ul li.qr {
@@ -80,6 +81,11 @@ main {
     margin-top: 45px;
 }
 
+.details p {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
 .cta h3 {
     font-weight: 900;
     text-align: center;
@@ -88,5 +94,28 @@ main {
 }
 
 .cta form {
-    
+    text-align: center;
+    background-color: #d3d3d3;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.cta input.button {
+    background-color: #FF3F3C;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.cta input.email {
+    border: none;
+    background-color: rgb(234, 234, 234);
+    font-size: 15px;
+    padding: 23px;
+    width: 480px;
 }
